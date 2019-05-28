@@ -4,6 +4,8 @@ a:visited{
 a:link{
   color: red;
 }
+
+
 legend:hover{
   color: red;
 }
@@ -12,4 +14,17 @@ legend:active{
 }
 input:focus{
   color: orange;
+}
+
+li:first-child{
+  background-color: yellow;
+}
+li:last-child{
+  background-color: red;
+}
+li:nth-child(2n){
+  background-color: orange;
+}
+li:nth-child(3n){
+  background-color: olive;
 }
