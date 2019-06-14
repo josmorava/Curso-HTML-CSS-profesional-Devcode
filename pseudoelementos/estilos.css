@@ -1,0 +1,18 @@
+.titulo{
+  text-align: center;
+}
+h1::before{
+  content: "Before";
+  background-color: orange;
+}
+h1::after{
+  content: "After";
+  background-color: orange;
+}
+p::first-letter{
+  font-size: 36px;
+  color: gold;
+}
+p::first-line{
+  color: crimson;
+}
