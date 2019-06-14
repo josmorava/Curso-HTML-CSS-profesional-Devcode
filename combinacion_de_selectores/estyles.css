@@ -1,0 +1,20 @@
+/*solo los elementos li hijos del elemento ul adoptan un margen de 40px,
+si se ultiliza un separador o combinador de elementos ">" para que
+afecte a los hijos*/
+ul > li {
+  margin-left: 40px;
+}
+
+
+/* selector que indica que el parrafo seguido del primer p se verá afectado*/
+/*
+    p + p{
+  background-color: yellow;
+}
+*/
+
+/*selector que indica que todos los p en general se veran afecatdos,
+no importa que uno no esté detrás del otro*/
+p ~ p {
+  background-color: gold;
+}
